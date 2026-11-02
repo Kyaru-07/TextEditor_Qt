@@ -16,6 +16,9 @@ qt_add_executable(TextEditor
     mainwindow.h
     mainwindow.ui
     icons.qrc
+    aboutdialog.h aboutdialog.cpp aboutdialog.ui
+    finddialog.h finddialog.cpp finddialog.ui
+    replacedialog.h replacedialog.cpp replacedialog.ui
 )
 
 target_link_libraries(TextEditor
